@@ -5,7 +5,7 @@
     --cinza-secundario: #c0c0c0;
     --bota0-azul: #167bf7;
     --cor-de-fundo: #00030c;
-    --botao-azul-efeito: #e534bf;
+    --botao-azul-efeito: #3c92fa;
     --fonte-principal: 'inter';
 }
 
@@ -157,3 +157,36 @@ body{
     margin:0.5em 6em;
 
 }
+
+@media screen and (max-width: 768px){
+    .conteiner{
+        display:block;
+        background-image: none;
+    }
+
+    .conteiner__imagem{
+        width:50vw;
+    }
+
+    .conteiner__caixa{
+        margin: 2em 2em;
+    }
+
+    .secundario{
+        margin:0;
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width: 50vw;
+    }
+
+    .dispositivos__lista{
+        display:block;
+    }
+
+    .rodape__lista{
+        display:block;
+    }
+}
+
